@@ -179,3 +179,10 @@ a {
   color: #fff;
   background-color: transparent;
 }
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+}
