@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common styles */
+body {
+  font-family: roboto, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 8px 32px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* banner styles */
+.banner {
+  background-color: #1f2937;
+  height: 80vh;
+}
+
+/* nav */
+.banner .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.banner .nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.banner .nav .nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.banner .nav .nav-links a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* hero section  */
+.banner .hero-section {
+  display: flex;
+  margin-top: 100px;
+}
+.banner .hero-section .hero-text {
+  width: 50%;
+  padding-right: 40px;
+}
+.banner .hero-section .hero-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.banner .hero-section .hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.banner .hero-section .hero-text .hero-cta {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 0;
+  margin-top: 10px;
+}
+
+.banner .hero-section .hero-image {
+  width: 50%;
+  background-color: #cecece;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* cards section styles */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card .card-img {
+  border: 5px solid #3882f6;
+  width: 175px;
+  height: 175px;
+  border-radius: 15px;
+}
