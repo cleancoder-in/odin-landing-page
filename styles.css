@@ -132,3 +132,19 @@ a {
   margin-top: 10px;
   color: #1f2937;
 }
+
+/* quote section styles */
+.quote-section {
+  padding: 120px 80px 100px 80px;
+  background-color: #e5e7eb;
+}
+
+.quote-section .wrapper q {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-section .wrapper p {
+  text-align: end;
+}
