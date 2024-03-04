@@ -9,6 +9,7 @@
 /* common styles */
 body {
   font-family: roboto, sans-serif;
+  font-size: 18px;
 }
 
 li {
@@ -98,15 +99,36 @@ a {
 }
 
 /* cards section styles */
-
-.cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cards-section {
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
-.cards .card .card-img {
+.cards-section .cards-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+}
+
+.cards-section .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.cards-section .cards .card {
+  width: 175px;
+}
+.cards-section .cards .card .card-img {
   border: 5px solid #3882f6;
   width: 175px;
   height: 175px;
   border-radius: 15px;
+}
+
+.cards-section .cards .card .card-text {
+  text-align: center;
+  margin-top: 10px;
+  color: #1f2937;
 }
